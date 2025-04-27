@@ -10,6 +10,7 @@ public class Basics {
 		Scanner sc = new Scanner (System.in);
 		// TODO Auto-generated method stub
 System.out.println("Enter your Name :" );
+String address ;
 
 String name = sc.next();
 System.out.println("Enter your age :" );
@@ -22,7 +23,20 @@ if (age<=18) {
 	System.out.println("your eligible to vote");
 	
 }
+System.out.println("Enter your pole address: ");
 
+address =sc.next();
+
+String a ="Anekal";
+
+ if (address == a) {
+	 
+	 System.out.println("Your voting room no is 45");
+	 
+ }else {
+	 
+	 System.out.println("Sorry ... kinldy visit office staff");
+ }
 	}
 	      
 }
