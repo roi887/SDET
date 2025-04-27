@@ -16,14 +16,13 @@ System.out.println("Enter your age :" );
 int age = sc.nextInt();
  
 if (age<=18) {
-	
 	System.out.println("your are not eligible to vote");
 }else {
 	
 	System.out.println("your eligible to vote");
-
+	
 }
-		
-	}
 
+	}
+	      
 }
