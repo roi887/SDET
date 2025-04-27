@@ -35,7 +35,7 @@ String a ="Anekal";
 	 
  }else {
 	 
-	 System.out.println("Sorry ... kinldy visit office staff");
+	 System.out.println("Sorry ...  visit office staff");
  }
 	}
 	      
