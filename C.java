@@ -1,4 +1,9 @@
-private 
+package com.Java;
 
+public class C{
 
-  public 
+  public  static void main(String[] args) {
+    System.out.println("Hello, World!");
+  }   
+}
+
