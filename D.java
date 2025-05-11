@@ -1,6 +1,8 @@
-public class C{
+package com.Java;
 
-    public static void main(Dtring [] args){
+public class D{
+
+    public static void main(String [] args){
 
         System.out.println("hai");
     }
