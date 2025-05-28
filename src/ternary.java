@@ -9,5 +9,5 @@ Scanner sc = new Scanner(System.in);
     System.out.println("Enter the no: = ");
     int num = sc.nextInt();
     String result = (num % 2 == 0) ? "Even" : "Odd";
-System.out.println(num + " is " + result);
+System.out.println(num + " is " +  result);
 }}
