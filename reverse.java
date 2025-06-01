@@ -12,7 +12,7 @@ public class reverse {
 	            reversed = reversed+(s1.charAt(i));  // appending character at the end
 	        }
 
-	        System.out.println("Reversed:" + reversed);
+	        System.out.println("Reversed :" + reversed);
 
 	}
 
