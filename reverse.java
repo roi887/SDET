@@ -7,12 +7,12 @@ public class reverse {
 		
 		 String s1 ="arun";;
 
-	        String reversed = "";
+	        String temp = "";
 	        for (int i = s1.length()-1; i >= 0; i--) {
-	            reversed = reversed+(s1.charAt(i));  // appending character at the end
+	            temp = temp+ s1.charAt(i);  // appending character at the end
 	        }
 
-	        System.out.println("Reversed :" + reversed);
+	        System.out.println("Reversed :" + temp);
 
 	}
 
