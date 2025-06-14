@@ -10,12 +10,11 @@ public class factorial {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number:=");
 
-
         long num=sc.nextInt();
         int fact = 1;
 
-        for (int i = 1; i <= num; i++) {
-            fact *= i;
+        for (int j = 1; j <= num; j++) {
+            fact *= j;
         }
 
         System.out.println("Factorial of " + num + " is: " + fact);
