@@ -38,6 +38,13 @@ public class Lenovo implements Laptop {
 
 	 public void camera() {
 		 
-		 System.out.println("my new camera code ");
+		 System.out.println();
 	 }
+
+	
+
+	public void security() {
+		// TODO Auto-generated method stub
+		
+	}
 }

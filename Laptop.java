@@ -1,3 +1,4 @@
+
 package com.interfacee;
 
 public interface Laptop {
@@ -16,7 +17,7 @@ public interface Laptop {
 		 System.out.println("camera code ");
 	 }
 		
-     private  static void audio() {
+     static void audio() {
 	
 	System.out.println("audip code ");
 }
@@ -25,4 +26,10 @@ public interface Laptop {
     	 System.out.println("video code");
      }
 
+
 }
+
+
+
+
+
