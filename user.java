@@ -1,9 +1,17 @@
-package com.labs.inheritance;
+package Interface;
 
-public class user {
-    void read(){
+public class User {
+    public static void main(String[] args) {
+        Lenovo sc = new Lenovo();
 
-        System.out.println("read code ");
-
+        sc.paste();
+        sc.keyboard();
+        sc.cut();
+        sc.copy();
+        sc.security();
+        HP s = new HP();
+        s.camera();
+        s.security();
+        Laptop.audio();
     }
 }
