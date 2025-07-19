@@ -1,8 +1,5 @@
 package Exceptionhandeling;
 
-public class Usercutomexcpe {
+public class LoginException extends Exception{
 
-    public static void main(String[] args) {
-
-    }
 }
